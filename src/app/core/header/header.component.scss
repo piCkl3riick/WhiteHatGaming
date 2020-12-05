@@ -1,0 +1,47 @@
+.navbar {
+  padding: 0.5rem 0rem;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+li.nav-item {
+  width: 9.9vw;
+}
+
+
+.navbar-toggler-icon,
+a {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+
+
+.active {
+  transition: all 1s ease-in-out;
+  background-color: #8DC63F;
+      width: 105px;
+      text-shadow: 0 4px 4px black;
+          margin-left: 14px;
+}
+
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid #000000d4;
+  border-radius: 0.25rem;
+}

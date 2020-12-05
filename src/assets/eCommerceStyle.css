@@ -1,0 +1,50 @@
+/* Colour Palette
+
+#8DC63F, #373737, #fff, #FCFCFC
+
+*/
+
+body{
+    background-color: #FCFCFC;
+}
+
+.container{
+margin-top: 90px;
+}
+
+nav{
+	    background-color: #373737!important;
+
+}
+
+
+
+
+.navbar-toggler{
+
+
+border-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* colums */
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+

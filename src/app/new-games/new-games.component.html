@@ -1,0 +1,25 @@
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- /.col -->
+    <div class="col">
+
+      <div class="row">
+        <div class="col-lg-3  mb-4" *ngFor="let game of _newGame">
+          <div class="card img-hover-zoom">
+            <span class="game-name">{{game.name}}</span>
+             <span id="amount" class="game-name">{{game.amount|currency:"£" }}</span>
+                    <img *ngIf="game.categories.indexOf('top') !== -1" src="assets/images/TOP.png"
+                      alt="image of new top ribbon">
+            <a href="#"><img class="card-img-top" [src]="game.image" alt="image of game"></a>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.col-lg-9 -->
+
+  </div>
+  <!-- /.container -->
