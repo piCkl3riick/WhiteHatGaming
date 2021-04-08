@@ -12,7 +12,7 @@ import { Game, Jackpot } from 'src/app/shared/game.model';
 export class FeedService {
 
   private readonly newGamesUrl =
-    "http://stage.whgstage.com/front-end-test/games.php";
+    "https://stage.whgstage.com/front-end-test/games.php";
 
     private readonly jackpotUrl = 'https://stage.whgstage.com/front-end-test/jackpots.php';
 
