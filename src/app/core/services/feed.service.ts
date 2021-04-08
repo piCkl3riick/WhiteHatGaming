@@ -14,7 +14,7 @@ export class FeedService {
   private readonly newGamesUrl =
     "http://stage.whgstage.com/front-end-test/games.php";
 
-    private readonly jackpotUrl = 'http://stage.whgstage.com/front-end-test/jackpots.php';
+    private readonly jackpotUrl = 'https://stage.whgstage.com/front-end-test/jackpots.php';
 
   constructor(private http: HttpClient) {}
 
